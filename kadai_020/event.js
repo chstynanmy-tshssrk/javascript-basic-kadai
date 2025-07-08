@@ -1,8 +1,6 @@
-document.addEventListener('DOMContentLoaded',() => {
-  const pushBtn =document.getElementById('btn');
-  pushBtn.addEventListener('click', () => {
-    const textline = document.getElementById('text');
-    textline.textContnet = textline.textContnet +'ボタンをクリックしました';
-  })
-})
+const btn = document.getElementById('btn');
+const text = document.getElementById('text');
 
+btn.addEventListener('click',() => {
+  text.textContent ='ボタンをクリックしました';
+})
