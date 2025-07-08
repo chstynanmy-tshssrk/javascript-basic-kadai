@@ -5,7 +5,7 @@ btn.addEventListener('click',() => {
   text.textContent ='ボタンをクリックしました';
 });
 
-btn.setTimeout(() => {
+setTimeout(() => {
   console.log('ボタンをクリックしました')
 }, 2000);
 
